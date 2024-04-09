@@ -1,0 +1,87 @@
+/* .App {
+  text-align: center;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+.App-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #ddd;
+}
+
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+.App-header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.App-header > .header-nav a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+.App-header > .header-nav a:hover {
+  color: #440b4d;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid gray;
+  background: #fff;
+  margin: 20px;
+}
+
+/* .card:hover{
+  background-color: #A00;
+} */
+
+.App-button {
+  color: whitesmoke;
+  background-color: green;
+}
+
+.App-main > div > h1 {
+  text-align: center;
+  padding: auto; 
+}
+
+.App-main > div > .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.App-danger-button {
+  background-color: red;
+}
+
+.promo-section {
+  font-weight: bold;
+  line-height: 20px;
+  /* color: brown; */
+}
+
+.card-section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+  background-color: green;
+}
+
+/* .main-nav {
+  color: brown;
+} */
+
